@@ -3,7 +3,7 @@ import chairImg from '../../../images/chair.png';
 
 const HeaderMain = () => {
     return (
-        <main className="row h-100 align-items-center">
+        <main className="row align-items-center gap-3">
             <div className="col-md-4 offset-md-1">
                 <h1 className="fw-bold">Your New Smile</h1>
                 <br />
