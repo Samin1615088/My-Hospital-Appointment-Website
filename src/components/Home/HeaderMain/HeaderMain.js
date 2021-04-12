@@ -9,7 +9,7 @@ const HeaderMain = () => {
                 <br />
                 <h1 className="fw-bold">Starts Here</h1>
                 <p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the</p>
-                <button className="btn btn-primary">GET APPOINTMENT</button>
+                <button type="button" className="btn btn-primary" onClick={() => {console.log("Get Appointment clicked");}}>GET APPOINTMENT</button>
             </div>
             <div className="col-md-6">
                 <img src={chairImg} alt="" className="img-fluid" />
